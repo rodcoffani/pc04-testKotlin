@@ -38,6 +38,8 @@ fun Composable1() {
             mark = !mark
         }
         Text(text = "You clicked $counter2 times")
+        if (mark)
+            Text(text = "The second button is enabled!")
     }
 }
 
